@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "190266",
+    "ThreadId": "56322",
+    "Html": "<p>In my test project, I have a &quot;linked&quot; file for the AssemblyVersion.cs that sits above the project directory (in the root of the solution). The conversion app tries to copy it to the same location and fails.</p>",
+    "PostedDate": "2009-05-14T07:58:07.38-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "213395",
+    "ThreadId": "56322",
+    "Html": "<p>Created work item: <a href=\"http://wf2wpf.codeplex.com/WorkItem/View.aspx?WorkItemId=1806\">http://wf2wpf.codeplex.com/WorkItem/View.aspx?WorkItemId=1806</a></p>",
+    "PostedDate": "2009-07-18T09:33:16.687-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

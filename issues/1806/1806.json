@@ -1,0 +1,50 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Steps to reproduce:\n \nCreate a new solution and project.\nCreate a file in the root of the solution.\nAdd the file to the project as a link.\nRun wf2wpf.\n \nThe conversion will fail because the source location and destination are the same and the file cannot be replaced.",
+    "LastUpdatedDate": "2013-02-14T11:40:48.307-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "wf2wpf",
+    "ReportedDate": "2009-07-18T09:32:43.943-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Copying files with the same source/destination fails",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 1806
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "You just need to call the function to create the folder...\r\n\r\nin bConvert_Click(object sender, EventArgs e)output(p.status)\r\nyou need to write it...\r\nbelow\r\n\r\noutput(\"Done.\");\r\ncopyProjectfiles(p);  //to copy project files to \r\ncreate_WPF_Project(); //destination folder if not exists will create\r\n",
+      "PostedDate": "2012-07-16T03:14:48.15-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-14T11:40:48.307-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

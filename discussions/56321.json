@@ -1,0 +1,26 @@
+[
+  {
+    "Id": "190265",
+    "ThreadId": "56321",
+    "Html": "<p>In my test project I had a couple of files that were *.designer.cs instead of *.Designer.cs. This caused exceptions because the forms didn't match with designer files.</p>",
+    "PostedDate": "2009-05-14T07:57:01.493-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "212678",
+    "ThreadId": "56321",
+    "Html": "<p>Hi! Really sorry about not replying - I thought I had discussion notification turned on; since I never got any notifications I didn't think anyone had posted any discussion. I'll look into your issues and post some responses shortly.</p>\r\n<p>Thanks!</p>\r\n<p>Eric.</p>",
+    "PostedDate": "2009-07-16T09:47:50.837-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "213394",
+    "ThreadId": "56321",
+    "Html": "<p>Created work item : <a href=\"http://wf2wpf.codeplex.com/WorkItem/View.aspx?WorkItemId=1805\">http://wf2wpf.codeplex.com/WorkItem/View.aspx?WorkItemId=1805</a></p>",
+    "PostedDate": "2009-07-18T09:30:26.047-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

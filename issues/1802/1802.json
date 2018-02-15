@@ -1,0 +1,50 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "If there is a problem generating the project you cannot press \"Convert\" again to regenerate, the error message is something like \"Cannot delete project file, it is already open by another process\". Closing the app, reopening and re-selecting the project lets the generated project file be deleted.",
+    "LastUpdatedDate": "2013-02-14T11:40:48.983-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "wf2wpf",
+    "ReportedDate": "2009-07-17T00:42:57.703-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Cannot generate project more than once",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 1802
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "This is because the FileStreams are not in \"using(){ ... }\" style blocks. The files are staying open.\r\n\r\n```\nusing (StreamReader file = new System.IO.StreamReader(fn))\n{\n    ...\n}\n```",
+      "PostedDate": "2013-01-30T21:51:24.883-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-14T11:40:48.983-08:00",
+      "Id": -2147483648
+    }
+  ]
+}
