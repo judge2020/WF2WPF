@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Convert_to_WPF", "Convert_to_WPF.csproj", "{84F1AF0E-5E0C-4EEE-A709-E37E4EAE707C}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs10.codeplex.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Convert_to_WPF.csproj
+		SccLocalPath1 = .
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84F1AF0E-5E0C-4EEE-A709-E37E4EAE707C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84F1AF0E-5E0C-4EEE-A709-E37E4EAE707C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84F1AF0E-5E0C-4EEE-A709-E37E4EAE707C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84F1AF0E-5E0C-4EEE-A709-E37E4EAE707C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
